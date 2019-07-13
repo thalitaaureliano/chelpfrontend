@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CHELP - chat for help</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <div class="d-flex justify-content-center">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="quemsomos.html">Quem somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sejavoluntaria.html">Seja voluntária</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+    <section>
+            <div class="d-flex justify-content-center">
+                <form action="#" method="POST" class="form col-6">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Nome: </label>
+                        <input type="text" class="form-control" id="nome" placeholder="Voluntária Maravilhosa da Silva">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="voluntaria@maravilhosa.com">
+                    </div>
+                    <div class="form-grou">
+                        <label for="formGroupExampleInput">Telefone: </label>
+                        <input type="text" class="form-control" id="telefone" placeholder="(XX)XXXX-XXXX">
+                    </div>
+                    <div class="form-grou">
+                        <label for="formGroupExampleInput">Endereço com CEP: </label>
+                        <input type="text" class="form-control" id="endereco" placeholder="Seu endereço, please">
+                    </div>
+                    <div class="form-grou">
+                        <label for="formGroupExampleInput">Horários e dias da semana em que você estaria disponível para contribuir: </label>
+                        <input type="text" class="form-control" id="horarios" placeholder="XX:XX - XX:XX, exemplo-freira1, exemplo-feira2">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Conte-nos porque você se considera capacitada para contribuir como voluntária:</label>
+                        <textarea type="text" class="form-control" id="sobre" placeholder="Conte-nos sua formação acadêmica e experiências :)"></textarea>
+                    </div>
+    
+                    <input type="button" id="botao" value="Enviar">
+    
+                </form>
+            </div>
+            <div class="voluntarias__box">
+            </div>
+    
+        </section>
+
+        <script src="script.js"></script>
+</body>
+</html>
